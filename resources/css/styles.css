@@ -59,6 +59,8 @@ p {
 
 /*styles for desktop*/
 
+@media screen and (min-width: 481px) {
+
   body {
     display: block;
     margin: auto;
@@ -85,6 +87,9 @@ p {
     margin-left: 24px;
   }
 
+  .nav-mobile {
+    display: none;
+  }
 
   nav.desktop ul li{
     display: inline;
@@ -147,6 +152,10 @@ p {
 
   .information span {
     font-size: 0.75rem;
+  }
+
+  .side-desc-mobile {
+    display: none;
   }
 
   .side-desc {
@@ -225,6 +234,10 @@ p {
     padding: 1rem;
   }
 
+  .course-categories-mobile {
+    display: none;
+  }
+
 /* thesis exhibit section */
 
   .exhibit-container {
@@ -259,3 +272,122 @@ p {
   .footer span {
     margin-left: 1.5rem;
   }
+}
+
+/*styles for mobile responsiveness*/
+
+@media only screen and (max-width: 480px) {
+
+/* mobile navigation */
+
+  .logo, nav.desktop {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    width: 100%;
+  }
+
+  .nav-mobile nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+/* jumbotron section*/
+
+  .jumbotron-image {
+    display: flex;
+  }
+
+  .jumbo-desc .info {
+    margin-left: 1rem;
+  }
+
+  .button {
+    width: 92%;
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+/* info section */
+
+  .side-desc {
+    display: none;
+  }
+
+  .side-desc-mobile{
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .side-desc-mobile .desc {
+    width: 100%;
+  }
+
+  .side-desc-mobile .description {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  .side-desc-mobile .description a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #104E8B
+  }
+
+  .small-image img {
+    width: 100%;
+    }
+
+  /* course mobile section */
+
+  .learn {
+    padding-top: 1rem;
+    border-top: 1px solid #E0E0E0;
+  }
+
+  .title h2 {
+    margin-bottom: 1.75rem;
+  }
+  .course-categories-desktop {
+    display: none;
+  }
+
+  .course-categories-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .course-mobile {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    background-color: #E0E0E0;
+    margin-bottom: 0.5rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+/* thesis exhibit section */
+
+  .thesis {
+    padding-top: 1rem;
+    border-top: 1px solid #E0E0E0;
+  }
+
+/*  footer section */
+
+  .footer {
+    margin-top: 2.5rem;
+  }
+}
