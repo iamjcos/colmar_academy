@@ -101,6 +101,12 @@ p {
     color: black;
   }
 
+  nav a:hover{
+    color: #FFFFFF;
+    background-color: #000000;
+    font-weight: bold;
+  }
+
 /* jumbotron section */
 
   .jumbotron {
@@ -124,6 +130,10 @@ p {
     align-items: center;
     width: 25%;
     padding-left: 4rem;
+  }
+
+  .button:hover {
+    background-color: #696969;
   }
 
 /* info section */
@@ -172,6 +182,10 @@ p {
     border-left: solid 1px #E0E0E0;
   }
 
+  .desc:hover {
+    background-color: #E0E0E0;
+  }
+
   .small-image {
     width: 35%;
     margin: 1rem 1rem 1rem 1rem;
@@ -191,6 +205,11 @@ p {
   .description a{
     text-decoration: none;
     font-weight: bold;
+  }
+
+  .description a:hover{
+    text-decoration: underline;
+    color: 000000;
   }
 
 /* course section */
@@ -224,6 +243,12 @@ p {
     width: 30%;
     flex-direction: row;
     margin-top: 1.5rem;
+  }
+
+  .course:hover {
+    color: white;
+    background-color: #989898;
+    transition: all 1.0s linear 0.5s;
   }
 
   .course .course-image img {
@@ -385,7 +410,7 @@ p {
     border-top: 1px solid #E0E0E0;
   }
 
-/*  footer section */
+/* Footer */
 
   .footer {
     margin-top: 2.5rem;
