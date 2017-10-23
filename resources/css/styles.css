@@ -1,0 +1,261 @@
+/* universal styles */
+
+html {
+  font-size: 16px;
+}
+
+* {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  }
+
+/* jumbotron section */
+
+p {
+  font-size: 14px;
+}
+
+.button {
+  background-color: #989898;
+  border: none;
+  color: white;
+  padding: 1rem 1rem;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+  font-size: 1.45rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.jumbotron {
+  background-color: #E0E0E0;
+  width: 100%;
+}
+
+.info {
+  width: 100%;
+  margin-right: 2rem;
+}
+
+.jumbo-image img {
+  width: 100%;
+}
+
+/*styles for desktop*/
+
+  body {
+    display: block;
+    margin: auto;
+  }
+
+/* header section */
+
+  .logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+  }
+
+  .logo span {
+    font-weight: normal;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+/* header navigation section */
+
+  nav.desktop {
+    display: flex;
+    margin-left: 24px;
+  }
+
+
+  nav.desktop ul li{
+    display: inline;
+    margin-left: 2rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+/* jumbotron section */
+
+  .jumbotron {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .jumbotron-image {
+    width: 60%;
+  }
+
+  .jumbo-image {
+    width: 100%;
+    margin: 2rem 0 2rem 1.5rem;
+  }
+
+  .jumbo-desc {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+    padding-left: 4rem;
+  }
+
+/* info section */
+
+  .info-container {
+    display: flex;
+    border-bottom: solid 1px #e0e0e0;
+    margin-top: 2rem;
+  }
+
+  .info-desc {
+    flex-direction: row;
+    width: 60%;
+    padding: 0rem 0 2rem 1.5rem;
+  }
+
+  .info-image img {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .information .big-desc {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .information span {
+    font-size: 0.75rem;
+  }
+
+  .side-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    width: 40%;
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: solid 1px #E0E0E0;
+  }
+
+  .small-image {
+    width: 35%;
+    margin: 1rem 1rem 1rem 1rem;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .small-image img {
+    width: 100%;
+  }
+
+  .desc .description {
+    width: 65%;
+    padding-right: 1rem;
+  }
+
+  .description a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+/* course section */
+
+  .courses {
+    background-color: #e0e0e0;
+  }
+
+  .title {
+    display: block;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+
+  .container-courses {
+    display: flex;
+    flex-direction: row;
+    padding: 0 4.5rem 2rem 4.5rem;
+  }
+
+  .course-categories-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+  .course {
+    background-color: white;
+    width: 30%;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+
+  .course .course-image img {
+    width: 100%;
+  }
+
+  .details {
+    padding: 1rem;
+  }
+
+/* thesis exhibit section */
+
+  .exhibit-container {
+    display: flex;
+    border-bottom: solid 1px #e0e0e0;
+    margin-top: 2rem;
+  }
+
+  .exhibit-desc {
+    flex-direction: row;
+    width: 60%;
+    padding: 0rem 0 2rem 1.5rem;
+  }
+
+  .video {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .video video {
+    width: 100%;
+  }
+
+/* footer section */
+
+  .footer {
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+  }
+
+  .footer span {
+    margin-left: 1.5rem;
+  }
